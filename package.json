@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "jest --passWithNoTests",
-    "test:staged":"jest --passWithNoTests"
+  "scripts":{
+    "test": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests"
   },
   "author": "",
   "license": "ISC",
@@ -23,5 +23,8 @@
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "git-commit-msg-linter": "^5.0.7"
   }
 }
